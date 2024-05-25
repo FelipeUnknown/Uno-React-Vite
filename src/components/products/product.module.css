@@ -1,0 +1,88 @@
+.prodWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.prodContent{
+    display: flex;
+    gap: 2rem;
+}
+.productTitle{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.productTitle h2{
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+
+}
+.productTitle .filterBtn{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: #ed1c24;
+    color: #fff;
+}
+.productTitle .filterBtn:hover{
+    background-color: #fff;
+    color:#ed1c24;
+    transition: 0.3s ease-in-out;
+}
+.prodCards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.cardUno:hover{
+    transition: 0.5s cubic-bezier(.075,.82,.165,1) ease-in-out;
+    transform: scale(1.06);
+}
+
+.cardTxt{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cardTxt h3{
+    padding-bottom: 1rem;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.cardTxt .supTxt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardTxt .supTxt p{
+    color: #bcbcbc;
+    font-weight: 400;
+}
+.cardTxt .supTxt span{
+    color: #fff;
+
+}
+.buybtn{
+    padding: 4px 16px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius:12px ;
+    color:#fff;
+}
+.buybtn:hover{
+    color: #fff;
+    background-color: #ed1c24;
+    border:2px solid #ed1c24;
+}
+@media(max-width:600px){
+    .prodContent{
+        align-items: center;
+        flex-direction: column;
+    }
+}

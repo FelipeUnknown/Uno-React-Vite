@@ -1,0 +1,98 @@
+.Hero{
+    padding-bottom: 10rem;
+}
+.heroWraper{
+    display: flex;
+    justify-content: space-between;
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 70ch;
+    text-align: left;
+}
+.heroContent h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+.heroContent span{
+    font-weight: 700;
+
+}
+.heroContent p{
+    color:#FFF;
+    font-size: 24px;
+    font-weight: 300;
+}
+.heroBtsDiv{
+    padding-top: 2rem;
+    display: flex;
+    gap:2rem;
+}
+.saibaMaisBtn{
+    font-size: 18px;
+    color: #fff;
+    background-color: #ed1c24;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.saibaMaisBtn:hover{
+    color: #ed1c24;
+    background-color: #fff;
+}
+
+.encontrarBtn {
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.encontrarBtn:hover{
+    color: #000;
+    background-color: #fff;
+
+}
+.heroImgDiv{
+    position: relative;
+}
+.heroImgDiv::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: -50px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #2f80ed;
+    filter: blur(70px);
+    z-index: -2;
+}
+.heroImgDiv::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: -25px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #eb5757cc;
+    filter: blur(70px);
+    z-index: -2;
+}
+@media(max-width:600px){
+    .heroWraper{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .heroContent{
+        text-align: center;
+        align-items: center;
+    }
+}
