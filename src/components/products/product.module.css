@@ -1,7 +1,7 @@
 .prodWrapper{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 4rem;
 }
 .prodContent{
     display: flex;
@@ -79,6 +79,21 @@
     color: #fff;
     background-color: #ed1c24;
     border:2px solid #ed1c24;
+    transition: 0.3s ease-in-out;
+}
+.verMaisBtn{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 40px;
+    border: 2px solid #D7D7D7;
+    color: #BCBCBC;
+    border-radius: 10px;
+}
+.verMaisBtn:hover{
+    color: #000;
+    border: 2px solid #D7D7D7;
+    background-color: #D7D7D7;
+    transition: 0.3s ease-in-out;
 }
 @media(max-width:600px){
     .Product{

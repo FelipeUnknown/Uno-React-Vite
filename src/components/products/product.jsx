@@ -166,7 +166,9 @@ const Product = () => {
             </div>
           </div>
         </div>
-        <div className={style.prodContent}></div>
+        <div className={style.verMaisBtnDiv}>
+          <a className={style.verMaisBtn} href="/">VER MAIS</a>
+        </div>
       </div>
     </section>
   );
