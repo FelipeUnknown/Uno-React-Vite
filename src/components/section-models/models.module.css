@@ -1,5 +1,5 @@
 .Models{
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
 }
 .modelsWrapper{
     display: flex;
@@ -46,6 +46,7 @@
     color:#ed1c24;
     transition: 0.3s ease-in-out;
 }
+
 .modelsCards{
     display: flex;
     flex-direction: column;
@@ -99,5 +100,17 @@
     .modelsContent{
         align-items: center;
         flex-direction: column;
+    }
+    .modelsTitle{
+        justify-content: center;
+        gap: 3rem;       
+    }
+    .modelsTitle h2{
+        max-width: 12ch;
+        font-size: 20px;
+        text-align: start;
+    }
+    .modelsTitle .verMaisBtn{
+        font-size: 20px;
     }
 }

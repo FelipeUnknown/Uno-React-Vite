@@ -81,6 +81,9 @@
     border:2px solid #ed1c24;
 }
 @media(max-width:600px){
+    .Product{
+        display: none;
+    }
     .prodContent{
         align-items: center;
         flex-direction: column;
