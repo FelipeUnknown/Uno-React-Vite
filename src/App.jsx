@@ -1,8 +1,10 @@
 import './App.css';
 import Header from './components/header/header';
-import Models from './components/section-models/models';
-import Product from './components/products/product';
 import Hero from './components/hero/hero';
+import Models from './components/section-models/models';
+import Feature from "./components/feature/feature"
+import Product from './components/products/product';
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
     <Header/>
     <Hero/>
     <Models/>
+    <Feature/>
     <Product/>
+    <Footer/>
     </>
   )
 }
